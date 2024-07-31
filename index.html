@@ -1,31 +1,49 @@
-<title>Document</title>
-
-
-
-  <div class="container">
-    <div class="left">
-        <h1>Student Registration</h1>
-
-
-
-
-            <button type="submit">Add Record</button>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">CUJ</div>
+            <div class="user-info">
+                <span>22190503040</span>
+                <div class="user-icon">👤</div>
+            </div>
+        </header>
+        <div class="main-content">
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Certificates</a></li>
+                    <li><a href="#">I - CSE : Integrated B.Tech. ...</a></li>
+                    <li><a href="#">Fee</a></li>
+                    <li><a href="#">Course(s) Selection</a></li>
+                    <li><a href="#">Upload Section</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Dues</a></li>
+                    <li><a href="#">Profile Updated Details</a></li>
+                    <li><a href="#">Examination</a></li>
+                    <li><a href="#">Training & Placement</a></li>
+                </ul>
+            </nav>
+            <section class="content">
+                <div class="announcement">
+                    <p>Announcement:</p>
+                    <a href="#">Create/Link Your Academic Bank of Credits (ABC) Account</a>
+                </div>
+                <div class="course-info">
+                    <h2>I - CSE : INTEGRATED B.TECH. AND M.TECH. IN COMPUTER SCIENCE & ENGINEERING (WITH SPECIALIZATION IN MACHINE LEARNING AND DATA SCIENCE)</h2>
+                    <button>CLICK HERE</button>
+                </div>
+            </section>
+        </div>
     </div>
-    <div class="right">
-        <h2>Records</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Email</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            <tbody id="record-list"></tbody>
-        </table>
-    </div>
-</div>
+    <script src="script.js"></script>
+</body>
+</html>
