@@ -1,1 +1,1 @@
-# dashboard.git.io
+# dashboard.github.io
